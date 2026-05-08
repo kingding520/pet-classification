@@ -1,0 +1,80 @@
+(MindSpore_GPU_1_1_1) dj@dj-System-Product-Name:~/2023_0920/MindSporePetClassification/code$ python train.py --dataset_path=../../dataset/PetImages --platform=GPU
+WARNING: 'ControlDepend' is deprecated from version 1.1 and will be removed in a future version, use 'Depend' instead.
+[WARNING] ME(4605:140552449156928,MainProcess):2023-09-21-06:40:38.633.131 [mindspore/ops/operations/array_ops.py:2302] WARN_DEPRECATED: The usage of Pack is deprecated. Please use Stack.
+WARNING: pip is being invoked by an old script wrapper. This will fail in a future version of pip.
+Please see https://github.com/pypa/pip/issues/5599 for advice on fixing the underlying issue.
+To avoid this problem you can invoke Python with '-m pip' instead of running pip directly.
+Requirement already satisfied: opencv-python in /home/dj/miniconda3/envs/MindSpore_GPU_1_1_1/lib/python3.7/site-packages (4.5.2.54)
+Requirement already satisfied: matplotlib in /home/dj/miniconda3/envs/MindSpore_GPU_1_1_1/lib/python3.7/site-packages (3.4.2)
+Requirement already satisfied: numpy>=1.14.5 in /home/dj/miniconda3/envs/MindSpore_GPU_1_1_1/lib/python3.7/site-packages (from opencv-python) (1.17.5)
+Requirement already satisfied: cycler>=0.10 in /home/dj/miniconda3/envs/MindSpore_GPU_1_1_1/lib/python3.7/site-packages (from matplotlib) (0.10.0)
+Requirement already satisfied: pyparsing>=2.2.1 in /home/dj/miniconda3/envs/MindSpore_GPU_1_1_1/lib/python3.7/site-packages (from matplotlib) (2.4.7)
+Requirement already satisfied: kiwisolver>=1.0.1 in /home/dj/miniconda3/envs/MindSpore_GPU_1_1_1/lib/python3.7/site-packages (from matplotlib) (1.3.1)
+Requirement already satisfied: python-dateutil>=2.7 in /home/dj/miniconda3/envs/MindSpore_GPU_1_1_1/lib/python3.7/site-packages (from matplotlib) (2.8.1)
+Requirement already satisfied: pillow>=6.2.0 in /home/dj/miniconda3/envs/MindSpore_GPU_1_1_1/lib/python3.7/site-packages (from matplotlib) (8.3.1)
+Requirement already satisfied: six in /home/dj/miniconda3/envs/MindSpore_GPU_1_1_1/lib/python3.7/site-packages (from cycler>=0.10->matplotlib) (1.16.0)
+[WARNING] ME(4605:140552449156928,MainProcess):2023-09-21-06:40:39.204.008 [mindspore/ops/operations/math_ops.py:171] WARN_DEPRECATED: The usage of TensorAdd is deprecated. Please use Add.
+[WARNING] ME(4605:140552449156928,MainProcess):2023-09-21-06:40:39.213.976 [mindspore/ops/operations/math_ops.py:171] WARN_DEPRECATED: The usage of TensorAdd is deprecated. Please use Add.
+[WARNING] ME(4605:140552449156928,MainProcess):2023-09-21-06:40:39.223.996 [mindspore/ops/operations/math_ops.py:171] WARN_DEPRECATED: The usage of TensorAdd is deprecated. Please use Add.
+[WARNING] ME(4605:140552449156928,MainProcess):2023-09-21-06:40:39.234.632 [mindspore/ops/operations/math_ops.py:171] WARN_DEPRECATED: The usage of TensorAdd is deprecated. Please use Add.
+[WARNING] ME(4605:140552449156928,MainProcess):2023-09-21-06:40:39.244.627 [mindspore/ops/operations/math_ops.py:171] WARN_DEPRECATED: The usage of TensorAdd is deprecated. Please use Add.
+[WARNING] ME(4605:140552449156928,MainProcess):2023-09-21-06:40:39.254.627 [mindspore/ops/operations/math_ops.py:171] WARN_DEPRECATED: The usage of TensorAdd is deprecated. Please use Add.
+[WARNING] ME(4605:140552449156928,MainProcess):2023-09-21-06:40:39.264.633 [mindspore/ops/operations/math_ops.py:171] WARN_DEPRECATED: The usage of TensorAdd is deprecated. Please use Add.
+[WARNING] ME(4605:140552449156928,MainProcess):2023-09-21-06:40:39.275.981 [mindspore/ops/operations/math_ops.py:171] WARN_DEPRECATED: The usage of TensorAdd is deprecated. Please use Add.
+[WARNING] ME(4605:140552449156928,MainProcess):2023-09-21-06:40:39.286.198 [mindspore/ops/operations/math_ops.py:171] WARN_DEPRECATED: The usage of TensorAdd is deprecated. Please use Add.
+[WARNING] ME(4605:140552449156928,MainProcess):2023-09-21-06:40:39.296.229 [mindspore/ops/operations/math_ops.py:171] WARN_DEPRECATED: The usage of TensorAdd is deprecated. Please use Add.
+[WARNING] ME(4605:140552449156928,MainProcess):2023-09-21-06:40:39.309.202 [mindspore/ops/operations/math_ops.py:171] WARN_DEPRECATED: The usage of TensorAdd is deprecated. Please use Add.
+[WARNING] ME(4605:140552449156928,MainProcess):2023-09-21-06:40:39.320.116 [mindspore/ops/operations/math_ops.py:171] WARN_DEPRECATED: The usage of TensorAdd is deprecated. Please use Add.
+[WARNING] ME(4605:140552449156928,MainProcess):2023-09-21-06:40:39.331.020 [mindspore/ops/operations/math_ops.py:171] WARN_DEPRECATED: The usage of TensorAdd is deprecated. Please use Add.
+[WARNING] ME(4605:140552449156928,MainProcess):2023-09-21-06:40:39.342.965 [mindspore/ops/operations/math_ops.py:171] WARN_DEPRECATED: The usage of TensorAdd is deprecated. Please use Add.
+[WARNING] ME(4605:140552449156928,MainProcess):2023-09-21-06:40:39.356.231 [mindspore/ops/operations/math_ops.py:171] WARN_DEPRECATED: The usage of TensorAdd is deprecated. Please use Add.
+[WARNING] ME(4605:140552449156928,MainProcess):2023-09-21-06:40:39.369.493 [mindspore/ops/operations/math_ops.py:171] WARN_DEPRECATED: The usage of TensorAdd is deprecated. Please use Add.
+[WARNING] ME(4605:140552449156928,MainProcess):2023-09-21-06:40:39.384.608 [mindspore/ops/operations/math_ops.py:171] WARN_DEPRECATED: The usage of TensorAdd is deprecated. Please use Add.
+start cache feature!
+Warning: unknown JFIF revision number 0.009% 
+training feature cached [22272/22272] 100%   
+train feature cache finished!
+evaluation feature cached [2476/2476] 100%   
+eval feature cache finished!
+saved feature features_folder
+epoch[1/30], iter[696] cost: 1362.976, per step time: 1.958, avg loss: 0.364, acc: 0.987, train acc: 0.987
+update best acc: 0.9866720516962844
+epoch[2/30], iter[696] cost: 1495.392, per step time: 2.149, avg loss: 0.354, acc: 0.987, train acc: 0.989
+update best acc: 0.9870759289176091
+sh: 1: del: not found
+epoch[3/30], iter[696] cost: 1190.042, per step time: 1.710, avg loss: 0.352, acc: 0.987, train acc: 0.991
+update best acc: 0.9870759289176091
+sh: 1: del: not found
+epoch[4/30], iter[696] cost: 1553.916, per step time: 2.233, avg loss: 0.351, acc: 0.988, train acc: 0.990
+update best acc: 0.9878836833602584
+sh: 1: del: not found
+epoch[5/30], iter[696] cost: 1238.943, per step time: 1.780, avg loss: 0.351, acc: 0.988, train acc: 0.991
+update best acc: 0.9878836833602584
+sh: 1: del: not found
+epoch[6/30], iter[696] cost: 1286.409, per step time: 1.848, avg loss: 0.351, acc: 0.989, train acc: 0.992
+update best acc: 0.9886914378029079
+sh: 1: del: not found
+epoch[7/30], iter[696] cost: 1264.181, per step time: 1.816, avg loss: 0.351, acc: 0.989, train acc: 0.991
+update best acc: 0.9886914378029079
+sh: 1: del: not found
+epoch[8/30], iter[696] cost: 1660.114, per step time: 2.385, avg loss: 0.350, acc: 0.989, train acc: 0.992
+update best acc: 0.9890953150242326
+sh: 1: del: not found
+epoch[9/30], iter[696] cost: 1244.904, per step time: 1.789, avg loss: 0.350, acc: 0.990, train acc: 0.992
+update best acc: 0.9899030694668821
+sh: 1: del: not found
+epoch[10/30], iter[696] cost: 1660.988, per step time: 2.386, avg loss: 0.350, acc: 0.988, train acc: 0.993
+epoch[11/30], iter[696] cost: 1270.394, per step time: 1.825, avg loss: 0.351, acc: 0.987, train acc: 0.992
+epoch[12/30], iter[696] cost: 1693.584, per step time: 2.433, avg loss: 0.351, acc: 0.988, train acc: 0.992
+epoch[13/30], iter[696] cost: 1267.155, per step time: 1.821, avg loss: 0.351, acc: 0.989, train acc: 0.993
+epoch[14/30], iter[696] cost: 1537.140, per step time: 2.209, avg loss: 0.351, acc: 0.988, train acc: 0.991
+epoch[15/30], iter[696] cost: 1321.747, per step time: 1.899, avg loss: 0.353, acc: 0.989, train acc: 0.992
+epoch[16/30], iter[696] cost: 1315.244, per step time: 1.890, avg loss: 0.353, acc: 0.987, train acc: 0.991
+epoch[17/30], iter[696] cost: 1468.431, per step time: 2.110, avg loss: 0.353, acc: 0.989, train acc: 0.993
+epoch[18/30], iter[696] cost: 1730.808, per step time: 2.487, avg loss: 0.353, acc: 0.986, train acc: 0.989
+epoch[19/30], iter[696] cost: 1683.241, per step time: 2.418, avg loss: 0.355, acc: 0.986, train acc: 0.992
+epoch[20/30], iter[696] cost: 1352.653, per step time: 1.943, avg loss: 0.355, acc: 0.987, train acc: 0.991
+early stop! the best epoch is 9
+train total cost 34.7375 s
+export mobilenetv2 MINDIR file at /home/dj/2023_0920/MindSporePetClassification/code/mobilenetv2.mindir
+
