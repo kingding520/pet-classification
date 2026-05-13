@@ -1,0 +1,73 @@
+dj@dj-System-Product-Name:~$ conda activate MindSpore_GPU_1_1_1
+(MindSpore_GPU_1_1_1) dj@dj-System-Product-Name:~$ cd /home/dj/2023_0920/MindSporePetClassification/code/
+(MindSpore_GPU_1_1_1) dj@dj-System-Product-Name:~/2023_0920/MindSporePetClassification/code$ python preprocessing_dataset_dj.py ../../kagglecatsanddogs_3367a.zip
+extract dataset
+extract dataset at /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages
+filter invaild images!
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Dog/4367.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Dog/1866.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Dog/7369.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Dog/7969.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Dog/9188.jpg
+/home/dj/miniconda3/envs/MindSpore_GPU_1_1_1/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:811: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Dog/11410.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Dog/11849.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Dog/7459.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Dog/6059.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Dog/10401.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Dog/2384.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Dog/2877.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Dog/5604.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Dog/2688.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Dog/10747.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Dog/10158.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Dog/5736.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Dog/7112.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Dog/11853.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Dog/8730.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Dog/1259.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Dog/11675.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Dog/6238.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Dog/3136.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Dog/3288.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Dog/Thumbs.db
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Dog/6318.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Dog/1308.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Dog/3588.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Dog/11702.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Dog/6718.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Dog/7133.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Dog/10797.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Cat/11874.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Cat/10820.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Cat/936.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Cat/9565.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Cat/140.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Cat/9171.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Cat/11565.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Cat/850.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Cat/5370.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Cat/10501.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Cat/4833.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Cat/11095.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Cat/8470.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Cat/666.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Cat/12080.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Cat/7978.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Cat/3491.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Cat/3300.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Cat/7968.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Cat/Thumbs.db
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Cat/11210.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Cat/2663.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Cat/660.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Cat/9778.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Cat/10125.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Cat/5553.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Cat/6435.jpg
+Invalid image file, delete /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages/Cat/11935.jpg
+filter invaild images done, then split dataset to train and eval
+final dataset at /home/dj/2023_0920/MindSporePetClassification/code/dataset/PetImages
+(MindSpore_GPU_1_1_1) dj@dj-System-Product-Name:~/2023_0920/MindSporePetClassification/code$ 
+
