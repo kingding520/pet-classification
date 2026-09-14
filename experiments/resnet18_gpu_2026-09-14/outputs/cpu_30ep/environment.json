@@ -1,0 +1,31 @@
+{
+  "torch": "2.11.0+cu128",
+  "torchvision": "0.26.0+cu128",
+  "requested_device": "CPU",
+  "actual_device": "cpu",
+  "cuda_runtime": null,
+  "cuda_device": null,
+  "cuda_device_capability": null,
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "dataset_path": "/mnt/d/develop/pet-classification/MindSporePetClassification/code/dataset/PetImages",
+  "classes": [
+    "Cat",
+    "Dog"
+  ],
+  "train_images": 1789,
+  "eval_images": 198,
+  "arguments": {
+    "dataset_path": "/mnt/d/develop/pet-classification/MindSporePetClassification/code/dataset/PetImages",
+    "output_dir": "/mnt/d/develop/pet-classification/experiments/resnet18_gpu_2026-09-14/outputs/cpu_30ep",
+    "device": "CPU",
+    "epochs": 30,
+    "batch_size": 32,
+    "lr": 0.01,
+    "seed": 1,
+    "workers": 4,
+    "pretrained": false,
+    "max_train_steps": 0,
+    "max_eval_steps": 0
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "best_validation_accuracy": 0.7222222222222222,
+  "total_seconds": 1682.4581,
+  "peak_gpu_memory_bytes": 0,
+  "best_checkpoint": "/mnt/d/develop/pet-classification/experiments/resnet18_gpu_2026-09-14/outputs/cpu_30ep/resnet18_best_epoch28.pth",
+  "best_checkpoint_sha256": "ef231eb1bad1aacae9135c8ac99a771057964a14561d5856c92c83d61414e3b2"
+}

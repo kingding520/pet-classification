@@ -1,0 +1,25 @@
+{
+  "checkpoint": "/mnt/d/develop/pet-classification/experiments/resnet18_gpu_2026-09-14/outputs/gpu_30ep_v2/resnet18_best_epoch26.pth",
+  "checkpoint_sha256": "97fec46316eb979cab861bc44d2c71b07f580eb6394daf7f12532eaa9e57d884",
+  "onnx": "/mnt/d/develop/pet-classification/experiments/resnet18_gpu_2026-09-14/exports/onnx_mslite_2026-09-14/resnet18_pet.onnx",
+  "onnx_sha256": "75110abf18efc078f4ea6521bca2bbb3cd2a363ff6fd30051e7ca63578e9ad88",
+  "opset": 17,
+  "input_name": "input",
+  "output_name": "logits",
+  "input_shape": [
+    1,
+    3,
+    224,
+    224
+  ],
+  "class_to_idx": {
+    "Cat": 0,
+    "Dog": 1
+  },
+  "checkpoint_epoch": 26,
+  "checkpoint_validation_accuracy": 0.7424242424242424,
+  "onnxruntime_max_abs_diff": 2.384185791015625e-07,
+  "onnxruntime_providers": [
+    "CPUExecutionProvider"
+  ]
+}
